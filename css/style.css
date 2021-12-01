@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    font-size: 15pt;
+}
+
+body{
+    background-color: #000;
+}
+
+.newgame{
+    color: #fff;
+    width: 600px;
+    padding: 10px;
+    border: solid #fff;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.tabuleiro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 600px;
+    height: 650px;
+    margin:  5px auto;
+    border: solid #fff;
+    border-radius: 5px;
+}
+
+.tabuleiro img{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 120px;
+    height: 110px;
+    margin: 7px;
+}
+
+#recomecar{
+    color: #fff;
+    display: none;
+    cursor: pointer;
+    align-items: center;
+}
